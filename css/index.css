@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #121923;
+}
+
+.search_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.from input {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #DBDBDB;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.from button {
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    color: #fff;
+    border: #453dd8;
+    border-radius: 5px;
+    background-color: #453dd8;
+}
+
+.card {
+    width: 600px;
+    height: 350px;
+    background-color: #453dd8;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.card_title h2 {
+    color: #fff;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.card_destination p {
+    color: #fff;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.card_username a {
+    color: #fff;
+}
+
+.card_img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.user_followers p {
+    color: #fff;
+    margin: 5px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.user_followers,
+.socialnetwork {
+    display: flex;
+    align-items: center;
+}
+
+.socialnetwork i {
+    color: rgb(25, 241, 180);
+    margin: 5px;
+}
+
+.socialnetwork p {
+    color: #fff;
+    font-family: cursive;
+}
